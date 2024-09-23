@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beleza e Bem-Estar</title>
+    <!-- Link para o Bootstrap via CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header class="bg-success text-white text-center p-4">
+        <h1>Beleza e Bem-Estar</h1>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Início</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#secao1">Terapia Capilar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#secao2">BBGlow</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#secao3">Lavieen</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Corpo -->
+    <main class="container my-5">
+        <section id="secao1" class="mb-4">
+            <div class="shadow p-3 mb-5 bg-white rounded"><h2 class="text-success">Terapia Capilar</h2></div>
+            <p>A terapia capilar é a área que estuda os fios, couro cabeludo e pelos para tratar e manter a saúde deles. Ela irá realizar um diagnóstico e um tratamento com o objetivo de tratar a patologia de cada paciente, que pode ser: quedas de cabelo, infecções, quebra dos fios, inflamação e doenças no couro cabeludo.</p>
+            <div class="row">
+                <figure class="col text-center">
+                    <img src="https://www.deppeal.com/wp-content/uploads/2023/08/servicos-deppeal-terapia-capilar-2-1024x811.png">
+                </figure>
+            </div>
+        </section>
+
+        <section id="secao2" class="mb-4">
+            <div class="shadow p-3 mb-5 bg-white rounded"><h2 class="text-success">BBGlow</h2></div>
+            <p>O procedimento consiste aplicação de soros, séruns e pigmentos no rosto por meio de sessões de microagulhamento – uma espécie de caneta ou rolinho com agulhas na extremidade que causam microlesões no rosto por onde os componentes são absorvidos.</p>
+            <div class="row">
+                <figure class="col text-center">
+                    <img src="https://houseofglam.beauty/bb-glow/images/BB-Glow-House-of-Glam-Stuttgart.jpg">
+                </figure>
+            </div>
+        </section>
+
+        <section id="secao3" class="mb-4">
+            <div class="shadow p-3 mb-5 bg-white rounded"><h2 class="text-success">Lavieen</h2></div>
+            <p>Um recurso poderoso para melhorar o aspecto da pele e combater acne, rugas, cicatrizes, manchas e até problemas capilares. A eficácia do Lavieen se explica pela precisão do laser, que atua diretamente nas camadas mais profundas da pele, estimulando a produção de colágeno e promovendo renovação celular.</p>
+            <div class="row">
+                <figure class="col text-center">
+                    <img src="https://www.corpobueno.com.br/wp-content/uploads/2023/07/laser-lavieen-corpobueno-2.jpg">
+                </figure>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="bg-dark text-white text-center p-3">
+        <p>&copy; <span id="ano"></span> Beleza e Bem-Estar</p>
+    </footer>
+
+    <!-- Script para atualizar o ano atual -->
+    <script>
+        document.getElementById('ano').textContent = new Date().getFullYear();
+    </script>
+    
+    <!-- Script do Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
